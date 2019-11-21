@@ -22,7 +22,22 @@ function fish_prompt
 	set_color reset
 	echo "> "
 end
-
 funcsave fish_prompt
 
-alias -s vi=nvim
+alias -s a="git add"
+alias -s b="git branch"
+alias -s c="git checkout"
+alias -s d="git diff"
+alias -s e="git reset"
+alias -s f="git fetch --prune"
+alias -s g="git log --graph --oneline --all --decorate-refs-exclude=\"refs/tags/builds/*\""
+alias -s i="bundle install --path vendor/bundle && bundle exec pod install"
+alias -s k="git commit"
+alias -s l="git log"
+alias -s m="git mergetool"
+alias -s n="git clean -d"
+alias -s p="git push"
+alias -s r="git rebase"
+alias -s s="git status"
+alias -s u="brew upgrade; brew cask upgrade"
+alias -s v="nvim"
