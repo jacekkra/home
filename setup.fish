@@ -40,3 +40,5 @@ alias -s p="git push"
 alias -s r="git rebase"
 alias -s s="git status"
 alias -s v="nvim"
+alias -s x="git branch --merged | grep -v \* | xargs git branch -d"
+
