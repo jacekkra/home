@@ -4,6 +4,7 @@ tap "domt4/autoupdate"
 
 brew "fish"
 brew "neovim"
+brew "ripgrep"
 brew "tree"
 
 cask "firefox-nightly"
