@@ -18,5 +18,6 @@
     "terminal.integrated.cursorStyle": "underline",
     "terminal.integrated.cursorBlinking": true,
     "workbench.colorTheme": "Solarized Light",
-    "workbench.iconTheme": "vs-seti"
+    "workbench.iconTheme": "vs-seti",
+    "update.mode": "manual"
 }
