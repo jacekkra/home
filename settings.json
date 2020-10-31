@@ -2,7 +2,6 @@
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.fontSize": 11,
-    "editor.formatOnPaste": true,
     "editor.minimap.enabled": false,
     "editor.multiCursorModifier": "alt",
     "explorer.confirmDelete": false,
@@ -19,5 +18,7 @@
     "terminal.integrated.cursorBlinking": true,
     "workbench.colorTheme": "Solarized Light",
     "workbench.iconTheme": "vs-seti",
-    "update.mode": "manual"
+    "update.mode": "manual",
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true
 }
