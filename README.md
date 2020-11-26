@@ -22,15 +22,15 @@ i   |   bundle **i**nstall && bundle exec pod install
 j   |   n/a
 k   |   git commit
 l   |   git **l**og
-m   |   git **m**ergetool
+m   |   git **m**erge
 n   |   git clea**n**
 o   |   n/a
 p   |   git **p**ush
 q   |   n/a
 r   |   git **r**ebase
 s   |   git **s**tatus
-t   |   n/a
-u   |   n/a
+t   |   git merge**t**ool
+u   |   git push -**u** origin HEAD
 v   |   n**v**im
 w   |   n/a
 x   |   git branch --merged \| grep -v \* \| xargs git branch -d
