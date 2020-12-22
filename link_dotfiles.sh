@@ -15,6 +15,10 @@ esac
 
 ln -sf $PWD/vimrc $HOME/.vimrc
 
+FISH_CONFIG_DIR=$HOME/.config/fish
+mkdir -p "$FISH_CONFIG_DIR"
+ln -sfh $PWD/fish/functions "$FISH_CONFIG_DIR"/functions
+
 NVIM_CONFIG_DIR=$HOME/.config/nvim
 mkdir -p "$NVIM_CONFIG_DIR"
 ln -sf $PWD/init.vim "$NVIM_CONFIG_DIR"/init.vim

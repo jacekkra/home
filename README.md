@@ -4,7 +4,7 @@
 
 2. Install [Homebrew](https://brew.sh/) and execute `homebrew.sh`.
 
-3. Set Fish as your default shell using `chsh -s /usr/local/bin/fish`. Then, in a Fish session, source `setup.fish`.
+3. Set Fish as your default shell using `chsh -s /usr/local/bin/fish`.
 
 ## Single-key aliases
 
