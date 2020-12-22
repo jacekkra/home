@@ -14,11 +14,6 @@ esac
 
 
 ln -sf $PWD/vimrc $HOME/.vimrc
-ln -sf $PWD/zshrc $HOME/.zshrc
-
-MPV_CONFIG_DIR=$HOME/.config/mpv
-mkdir -p "$MPV_CONFIG_DIR"
-ln -sf $PWD/mpv.conf "$MPV_CONFIG_DIR"/mpv.conf
 
 NVIM_CONFIG_DIR=$HOME/.config/nvim
 mkdir -p "$NVIM_CONFIG_DIR"
