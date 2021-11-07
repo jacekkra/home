@@ -1,4 +1,3 @@
-# Defined in - @ line 1
 function s --wraps='git status' --description 'alias s=git status'
-  git status $argv;
+  git status $argv; 
 end

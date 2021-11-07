@@ -1,10 +1,22 @@
 ## Setup
 
-1. Replace your existing dotfiles with symlinks to this repo using `link_dotfiles.sh`.
+1. [Homebrew](https://brew.sh/)
 
-2. Install [Homebrew](https://brew.sh/) and execute `homebrew.sh`.
+```
+brew bundle
+```
 
-3. Set Fish as your default shell using `chsh -s /usr/local/bin/fish`.
+2. Dotfiles
+
+```
+stow -v -R -t ~ dotfiles
+```
+
+3. Git
+
+```
+./git.fish
+```
 
 ## Single-key aliases
 
