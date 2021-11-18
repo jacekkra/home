@@ -30,7 +30,7 @@ e   |   git r**e**set
 f   |   git **f**etch --prune
 g   |   git log --**g**raph --oneline --all --decorate-refs-exclude=\"refs/tags/builds/*\"
 h   |   n/a
-i   |   bundle **i**nstall && bundle exec pod repo-art update smartsdk && bundle exec pod **i**nstall
+i   |   bundle **i**nstall && bundle exec pod repo-art update smartsdk-ios-local && bundle exec pod **i**nstall
 j   |   n/a
 k   |   git commit
 l   |   git **l**og
