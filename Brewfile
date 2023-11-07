@@ -10,6 +10,7 @@ brew "weechat"
 brew "xcodes"
 
 cask "adguard"
+cask "bazecor"
 cask "keepassxc"
 cask "messenger"
 cask "mpv"
