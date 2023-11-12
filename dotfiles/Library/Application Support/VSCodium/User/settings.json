@@ -1,5 +1,4 @@
 {
-    "editor.fontSize": 11,
     "editor.formatOnSave": true,
     "editor.minimap.enabled": false,
     "editor.multiCursorModifier": "alt",
@@ -13,7 +12,6 @@
     "python.formatting.provider": "black",
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "underline",
-    "terminal.integrated.fontSize": 11,
     "update.mode": "manual",
     "window.autoDetectColorScheme": true,
     "window.closeWhenEmpty": true,
